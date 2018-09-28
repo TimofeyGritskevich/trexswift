@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1545F37C7F09EAB58C57F989 /* Pods_TrexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77AFF84CD0770DB85D28AFB /* Pods_TrexTests.framework */; };
+		22D6ED7D215E2181004C4802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6ED7C215E2181004C4802 /* AppDelegate.swift */; };
+		22D6ED7F215E2181004C4802 /* PremiereController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6ED7E215E2181004C4802 /* PremiereController.swift */; };
+		22D6ED82215E2181004C4802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D6ED80215E2181004C4802 /* Main.storyboard */; };
+		22D6ED84215E2182004C4802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D6ED83215E2182004C4802 /* Assets.xcassets */; };
+		22D6ED87215E2182004C4802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D6ED85215E2182004C4802 /* LaunchScreen.storyboard */; };
+		22D6ED92215E2182004C4802 /* TrexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6ED91215E2182004C4802 /* TrexTests.swift */; };
+		22D6ED9D215E2182004C4802 /* TrexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6ED9C215E2182004C4802 /* TrexUITests.swift */; };
+		22D6EDAB215E243A004C4802 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDAA215E243A004C4802 /* Extensions.swift */; };
+		22D6EDAD215E245C004C4802 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDAC215E245C004C4802 /* InfoViewController.swift */; };
+		22D6EDB6215E24B9004C4802 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D6EDB5215E24B9004C4802 /* SwiftyJSON.framework */; };
+		22D6EDB8215E24BC004C4802 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D6EDB7215E24BC004C4802 /* Alamofire.framework */; };
+		22D6EDBA215E24D9004C4802 /* Premiere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDB9215E24D9004C4802 /* Premiere.swift */; };
+		22D6EDBC215E24F7004C4802 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDBB215E24F7004C4802 /* Manager.swift */; };
+		22D6EDBE215E250D004C4802 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDBD215E250D004C4802 /* BaseCell.swift */; };
+		22D6EDC0215E2530004C4802 /* CinemaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDBF215E2530004C4802 /* CinemaCell.swift */; };
+		22D6EDC2215E2557004C4802 /* CinemaContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDC1215E2557004C4802 /* CinemaContentCell.swift */; };
+		22D6EDC4215E2579004C4802 /* CoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6EDC3215E2578004C4802 /* CoverCell.swift */; };
+		36C73C930A20676BD3D6A6C0 /* Pods_TrexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1406E9F482F8E93B7CE9617C /* Pods_TrexUITests.framework */; };
+		4ABF6B084DB5ADE5D1F649D3 /* Pods_Trex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF40EB6CA517D2D6E459A9D /* Pods_Trex.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22D6ED8E215E2182004C4802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D6ED71215E2181004C4802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D6ED78215E2181004C4802;
+			remoteInfo = Trex;
+		};
+		22D6ED99215E2182004C4802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D6ED71215E2181004C4802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D6ED78215E2181004C4802;
+			remoteInfo = Trex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22D6EDB1215E24A0004C4802 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01D6291FDFD68570564E54D5 /* Pods-TrexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrexUITests/Pods-TrexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		068CDD470970263331B41A20 /* Pods-TrexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrexTests/Pods-TrexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1406E9F482F8E93B7CE9617C /* Pods_TrexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1691A553F79D01D8650B6852 /* Pods-TrexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrexTests/Pods-TrexTests.release.xcconfig"; sourceTree = "<group>"; };
+		22D6ED79215E2181004C4802 /* Trex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6ED7C215E2181004C4802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22D6ED7E215E2181004C4802 /* PremiereController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiereController.swift; sourceTree = "<group>"; };
+		22D6ED81215E2181004C4802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22D6ED83215E2182004C4802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D6ED86215E2182004C4802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22D6ED88215E2182004C4802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6ED8D215E2182004C4802 /* TrexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6ED91215E2182004C4802 /* TrexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrexTests.swift; sourceTree = "<group>"; };
+		22D6ED93215E2182004C4802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6ED98215E2182004C4802 /* TrexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6ED9C215E2182004C4802 /* TrexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrexUITests.swift; sourceTree = "<group>"; };
+		22D6ED9E215E2182004C4802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6EDAA215E243A004C4802 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		22D6EDAC215E245C004C4802 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		22D6EDB5215E24B9004C4802 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6EDB7215E24BC004C4802 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6EDB9215E24D9004C4802 /* Premiere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiere.swift; sourceTree = "<group>"; };
+		22D6EDBB215E24F7004C4802 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		22D6EDBD215E250D004C4802 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		22D6EDBF215E2530004C4802 /* CinemaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaCell.swift; sourceTree = "<group>"; };
+		22D6EDC1215E2557004C4802 /* CinemaContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaContentCell.swift; sourceTree = "<group>"; };
+		22D6EDC3215E2578004C4802 /* CoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverCell.swift; sourceTree = "<group>"; };
+		6CCFD9534AAD7F02B4FE0697 /* Pods-TrexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrexUITests/Pods-TrexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DDF6B43282DAD50A60B12BF /* Pods-Trex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trex/Pods-Trex.debug.xcconfig"; sourceTree = "<group>"; };
+		B77AFF84CD0770DB85D28AFB /* Pods_TrexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA63974DC10A7171CB43D18 /* Pods-Trex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trex/Pods-Trex.release.xcconfig"; sourceTree = "<group>"; };
+		CEF40EB6CA517D2D6E459A9D /* Pods_Trex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D6ED76215E2181004C4802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6EDB8215E24BC004C4802 /* Alamofire.framework in Frameworks */,
+				22D6EDB6215E24B9004C4802 /* SwiftyJSON.framework in Frameworks */,
+				4ABF6B084DB5ADE5D1F649D3 /* Pods_Trex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED8A215E2182004C4802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1545F37C7F09EAB58C57F989 /* Pods_TrexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED95215E2182004C4802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C73C930A20676BD3D6A6C0 /* Pods_TrexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D6ED70215E2181004C4802 = {
+			isa = PBXGroup;
+			children = (
+				22D6ED7B215E2181004C4802 /* Trex */,
+				22D6ED90215E2182004C4802 /* TrexTests */,
+				22D6ED9B215E2182004C4802 /* TrexUITests */,
+				22D6ED7A215E2181004C4802 /* Products */,
+				FACC4AD03F0236072BD42639 /* Pods */,
+				CB4838E9AF08FC168259E79E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22D6ED7A215E2181004C4802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D6ED79215E2181004C4802 /* Trex.app */,
+				22D6ED8D215E2182004C4802 /* TrexTests.xctest */,
+				22D6ED98215E2182004C4802 /* TrexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D6ED7B215E2181004C4802 /* Trex */ = {
+			isa = PBXGroup;
+			children = (
+				22D6ED7C215E2181004C4802 /* AppDelegate.swift */,
+				22D6EDC6215E25E8004C4802 /* Model */,
+				22D6EDC5215E25D7004C4802 /* Views */,
+				22D6EDC7215E25FA004C4802 /* Controllers */,
+				22D6EDAA215E243A004C4802 /* Extensions.swift */,
+				22D6ED80215E2181004C4802 /* Main.storyboard */,
+				22D6ED83215E2182004C4802 /* Assets.xcassets */,
+				22D6ED85215E2182004C4802 /* LaunchScreen.storyboard */,
+				22D6ED88215E2182004C4802 /* Info.plist */,
+			);
+			path = Trex;
+			sourceTree = "<group>";
+		};
+		22D6ED90215E2182004C4802 /* TrexTests */ = {
+			isa = PBXGroup;
+			children = (
+				22D6ED91215E2182004C4802 /* TrexTests.swift */,
+				22D6ED93215E2182004C4802 /* Info.plist */,
+			);
+			path = TrexTests;
+			sourceTree = "<group>";
+		};
+		22D6ED9B215E2182004C4802 /* TrexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22D6ED9C215E2182004C4802 /* TrexUITests.swift */,
+				22D6ED9E215E2182004C4802 /* Info.plist */,
+			);
+			path = TrexUITests;
+			sourceTree = "<group>";
+		};
+		22D6EDC5215E25D7004C4802 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22D6EDBD215E250D004C4802 /* BaseCell.swift */,
+				22D6EDBF215E2530004C4802 /* CinemaCell.swift */,
+				22D6EDC1215E2557004C4802 /* CinemaContentCell.swift */,
+				22D6EDC3215E2578004C4802 /* CoverCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22D6EDC6215E25E8004C4802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D6EDB9215E24D9004C4802 /* Premiere.swift */,
+				22D6EDBB215E24F7004C4802 /* Manager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22D6EDC7215E25FA004C4802 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22D6ED7E215E2181004C4802 /* PremiereController.swift */,
+				22D6EDAC215E245C004C4802 /* InfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB4838E9AF08FC168259E79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D6EDB7215E24BC004C4802 /* Alamofire.framework */,
+				22D6EDB5215E24B9004C4802 /* SwiftyJSON.framework */,
+				CEF40EB6CA517D2D6E459A9D /* Pods_Trex.framework */,
+				B77AFF84CD0770DB85D28AFB /* Pods_TrexTests.framework */,
+				1406E9F482F8E93B7CE9617C /* Pods_TrexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACC4AD03F0236072BD42639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDF6B43282DAD50A60B12BF /* Pods-Trex.debug.xcconfig */,
+				CBA63974DC10A7171CB43D18 /* Pods-Trex.release.xcconfig */,
+				068CDD470970263331B41A20 /* Pods-TrexTests.debug.xcconfig */,
+				1691A553F79D01D8650B6852 /* Pods-TrexTests.release.xcconfig */,
+				01D6291FDFD68570564E54D5 /* Pods-TrexUITests.debug.xcconfig */,
+				6CCFD9534AAD7F02B4FE0697 /* Pods-TrexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D6ED78215E2181004C4802 /* Trex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D6EDA1215E2182004C4802 /* Build configuration list for PBXNativeTarget "Trex" */;
+			buildPhases = (
+				EB89E36BEC26AEAEE6604E8E /* [CP] Check Pods Manifest.lock */,
+				22D6ED75215E2181004C4802 /* Sources */,
+				22D6ED76215E2181004C4802 /* Frameworks */,
+				22D6ED77215E2181004C4802 /* Resources */,
+				68B5F68D4FD2FD0EBE87979D /* [CP] Embed Pods Frameworks */,
+				22D6EDB1215E24A0004C4802 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trex;
+			productName = Trex;
+			productReference = 22D6ED79215E2181004C4802 /* Trex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22D6ED8C215E2182004C4802 /* TrexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D6EDA4215E2182004C4802 /* Build configuration list for PBXNativeTarget "TrexTests" */;
+			buildPhases = (
+				4EFBE299D0F4D70E8888012C /* [CP] Check Pods Manifest.lock */,
+				22D6ED89215E2182004C4802 /* Sources */,
+				22D6ED8A215E2182004C4802 /* Frameworks */,
+				22D6ED8B215E2182004C4802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D6ED8F215E2182004C4802 /* PBXTargetDependency */,
+			);
+			name = TrexTests;
+			productName = TrexTests;
+			productReference = 22D6ED8D215E2182004C4802 /* TrexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22D6ED97215E2182004C4802 /* TrexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D6EDA7215E2182004C4802 /* Build configuration list for PBXNativeTarget "TrexUITests" */;
+			buildPhases = (
+				8E72A1190E376098A70502ED /* [CP] Check Pods Manifest.lock */,
+				22D6ED94215E2182004C4802 /* Sources */,
+				22D6ED95215E2182004C4802 /* Frameworks */,
+				22D6ED96215E2182004C4802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D6ED9A215E2182004C4802 /* PBXTargetDependency */,
+			);
+			name = TrexUITests;
+			productName = TrexUITests;
+			productReference = 22D6ED98215E2182004C4802 /* TrexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D6ED71215E2181004C4802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Timofey Gritkevich";
+				TargetAttributes = {
+					22D6ED78215E2181004C4802 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					22D6ED8C215E2182004C4802 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 22D6ED78215E2181004C4802;
+					};
+					22D6ED97215E2182004C4802 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 22D6ED78215E2181004C4802;
+					};
+				};
+			};
+			buildConfigurationList = 22D6ED74215E2181004C4802 /* Build configuration list for PBXProject "Trex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D6ED70215E2181004C4802;
+			productRefGroup = 22D6ED7A215E2181004C4802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D6ED78215E2181004C4802 /* Trex */,
+				22D6ED8C215E2182004C4802 /* TrexTests */,
+				22D6ED97215E2182004C4802 /* TrexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D6ED77215E2181004C4802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6ED87215E2182004C4802 /* LaunchScreen.storyboard in Resources */,
+				22D6ED84215E2182004C4802 /* Assets.xcassets in Resources */,
+				22D6ED82215E2181004C4802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED8B215E2182004C4802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED96215E2182004C4802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EFBE299D0F4D70E8888012C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B5F68D4FD2FD0EBE87979D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trex/Pods-Trex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trex/Pods-Trex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E72A1190E376098A70502ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB89E36BEC26AEAEE6604E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D6ED75215E2181004C4802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6EDC0215E2530004C4802 /* CinemaCell.swift in Sources */,
+				22D6ED7F215E2181004C4802 /* PremiereController.swift in Sources */,
+				22D6EDBC215E24F7004C4802 /* Manager.swift in Sources */,
+				22D6EDAB215E243A004C4802 /* Extensions.swift in Sources */,
+				22D6EDC2215E2557004C4802 /* CinemaContentCell.swift in Sources */,
+				22D6EDC4215E2579004C4802 /* CoverCell.swift in Sources */,
+				22D6EDAD215E245C004C4802 /* InfoViewController.swift in Sources */,
+				22D6EDBE215E250D004C4802 /* BaseCell.swift in Sources */,
+				22D6EDBA215E24D9004C4802 /* Premiere.swift in Sources */,
+				22D6ED7D215E2181004C4802 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED89215E2182004C4802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6ED92215E2182004C4802 /* TrexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D6ED94215E2182004C4802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6ED9D215E2182004C4802 /* TrexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D6ED8F215E2182004C4802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D6ED78215E2181004C4802 /* Trex */;
+			targetProxy = 22D6ED8E215E2182004C4802 /* PBXContainerItemProxy */;
+		};
+		22D6ED9A215E2182004C4802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D6ED78215E2181004C4802 /* Trex */;
+			targetProxy = 22D6ED99215E2182004C4802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22D6ED80215E2181004C4802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D6ED81215E2181004C4802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22D6ED85215E2182004C4802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D6ED86215E2182004C4802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D6ED9F215E2182004C4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22D6EDA0215E2182004C4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D6EDA2215E2182004C4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDF6B43282DAD50A60B12BF /* Pods-Trex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = Trex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.Trex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D6EDA3215E2182004C4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA63974DC10A7171CB43D18 /* Pods-Trex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = Trex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.Trex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22D6EDA5215E2182004C4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068CDD470970263331B41A20 /* Pods-TrexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = TrexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.TrexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trex.app/Trex";
+			};
+			name = Debug;
+		};
+		22D6EDA6215E2182004C4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1691A553F79D01D8650B6852 /* Pods-TrexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = TrexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.TrexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trex.app/Trex";
+			};
+			name = Release;
+		};
+		22D6EDA8215E2182004C4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D6291FDFD68570564E54D5 /* Pods-TrexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = TrexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.TrexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trex;
+			};
+			name = Debug;
+		};
+		22D6EDA9215E2182004C4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCFD9534AAD7F02B4FE0697 /* Pods-TrexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM93J83379;
+				INFOPLIST_FILE = TrexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Gritkevich.TrexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D6ED74215E2181004C4802 /* Build configuration list for PBXProject "Trex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D6ED9F215E2182004C4802 /* Debug */,
+				22D6EDA0215E2182004C4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D6EDA1215E2182004C4802 /* Build configuration list for PBXNativeTarget "Trex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D6EDA2215E2182004C4802 /* Debug */,
+				22D6EDA3215E2182004C4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D6EDA4215E2182004C4802 /* Build configuration list for PBXNativeTarget "TrexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D6EDA5215E2182004C4802 /* Debug */,
+				22D6EDA6215E2182004C4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D6EDA7215E2182004C4802 /* Build configuration list for PBXNativeTarget "TrexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D6EDA8215E2182004C4802 /* Debug */,
+				22D6EDA9215E2182004C4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D6ED71215E2181004C4802 /* Project object */;
+}
